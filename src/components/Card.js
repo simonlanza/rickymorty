@@ -4,7 +4,7 @@ import '../styles/Card.css'
 const Card = ({img, incrementId, text, name}) => {
     return (
         <div className="card">
-            <h1>{text}</h1>
+            <h1 className="title">{text}</h1>
             <div>
                 <div className="card-img">
                     <img src={img} alt="" />

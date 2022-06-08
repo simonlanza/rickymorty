@@ -6,7 +6,7 @@ import {useState} from "react";
 
 function App() {
     const [display, setDisplay] = useState();
-    const [text, setText] = useState("Go to Function Component");
+    const [text, setText] = useState("Go to Characters");
     const [count, setCount] = useState(1);
 
     const switchDisplay = (arg) => {
